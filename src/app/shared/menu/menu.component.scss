@@ -1,0 +1,55 @@
+.header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100px;
+	background-color: #F6F6F6;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	font-size: 16px;
+	}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 10px;
+	color: #455FBD;
+	font-size: 16px;
+	font-weight: normal;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.profissao {
+	margin-left: 50px;
+	color: #777777;
+	letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.menu {
+	margin-left: 680px;
+	display: flex;
+	column-gap: 50px;
+}
+
+.menu-item {
+	cursor: pointer;
+}
+
+.menu-selected {
+	color: #455FBD;
+}
+
+.menu .menu-item:active, .menu .menu-item:hover {
+	color: #455FBD;
+}
+
+.menu-item:hover {
+	color: #455FBD;
+}
+

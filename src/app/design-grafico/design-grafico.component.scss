@@ -1,0 +1,44 @@
+.wrapper-img {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 240px;
+    row-gap: 30px;
+}
+
+.img {
+    background-image: url("../../assets/img/design-grafico/poster-mbappe.png");
+	background-repeat: no-repeat;
+	width: 1080px;
+	height: 1350px;
+    display: block;
+    margin-bottom: 80px;
+}
+
+.img2 {
+    background-image: url("../../assets/img/design-grafico/Poster.png");
+	background-repeat: no-repeat;
+	width: 1080px;
+	height: 1350px;
+    display: block;
+    margin-bottom: 80px;
+}
+
+.img3 {
+    background-image: url("../../assets/img/design-grafico/carrousel.png");
+	background-repeat: no-repeat;
+	width: 1258px;
+	height: 250px;
+    display: block;
+    margin-bottom: 80px;
+}
+
+.img4 {
+    background-image: url("../../assets/img/design-grafico/packshot.png");
+	background-repeat: no-repeat;
+	width: 1080px;
+	height: 1350px;
+    display: block;
+    margin-bottom: 80px;
+}

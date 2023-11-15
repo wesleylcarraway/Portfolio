@@ -1,0 +1,80 @@
+.projetos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding-top: 140px;
+}
+
+.projeto {
+	width: 550px;
+	height: 400px;
+	cursor: pointer;
+	position: relative;
+  	display: inline-block;
+  	border-right: 1px solid #455FBD;
+  	z-index: 0;
+}
+
+.img1 {
+	background-image: url("../../assets/img/projeto1.png");
+	background-size: 550px 400px;
+	background-repeat: no-repeat;
+	width: 550px;
+	height: 400px;
+	display: block;
+  	width: 100%;
+}
+
+.img2 {
+	background-image: url("../../assets/img/design-grafico/projeto2.png");
+	background-size: 550px 400px;
+	background-repeat: no-repeat;
+	width: 550px;
+	height: 400px;
+	display: block;
+  	
+}
+
+.img-text:hover {
+	background-color: hsla(227,47.6%,50.6%, 0.9);
+	font-size: 35px; 
+	transition: all 0.2s ease-out;
+}
+
+.img-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%; 
+  	left: 50%; 
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	font-size: 0px; 
+  	width: 550px;
+	height: 400px;
+  	text-align: center;
+	
+}
+
+.img-text .text {
+	user-select: none;
+	line-height: 50px;
+}
+
+.p-esquerda, .p-direita {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+
+.projeto:hover {
+	background-color: #455FBD;
+}
+
+
+
+.text {
+    line-height: 40px;
+}
