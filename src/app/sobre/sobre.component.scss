@@ -17,6 +17,7 @@
 
 .informacoes {
     margin-top: 10px;
+    width: 600px;
 }
 
 .h1 {
@@ -76,6 +77,9 @@
 }
 
 .cv-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     width: 170px;
     height: 45px;
@@ -85,9 +89,41 @@
     letter-spacing: 2px;
     font-weight: bolder;
     background-color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 .cv-btn:hover {
     background-color: #455FBD;
     color: #f1f1f1;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1300px) {
+	.minha-img {
+        background-size: 400px 400px;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+	.sobre-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .informacoes {
+        width: 400px;
+    }
+
+    .h1 {
+        font-size: 25px;
+    }
+
+    .quote {
+        font-size: 15px;   
+    }
 }

@@ -1,6 +1,6 @@
-.header {
+.row-1 {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 	height: 100px;
 	background-color: #F6F6F6;
@@ -9,7 +9,20 @@
 	width: 100%;
 	z-index: 1;
 	font-size: 16px;
-	}
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	background-color: #F6F6F6;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	font-size: 16px;
+}
 
 .logo {
 	display: flex;
@@ -24,20 +37,27 @@
 	cursor: pointer;
 }
 
+.logo-profissao {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .profissao {
 	margin-left: 50px;
 	color: #777777;
 	letter-spacing: 1px;
     font-size: 16px;
+	min-width: 220px;
 }
 
 .menu {
-	margin-left: 680px;
 	display: flex;
 	column-gap: 50px;
+	margin-right: 50px;
 }
 
-.menu-item {
+.menu-item, .sc-menu-item {
 	cursor: pointer;
 }
 
@@ -49,7 +69,86 @@
 	color: #455FBD;
 }
 
+.menu .sc-menu-item:active, .menu .sc-menu-item:hover {
+	color: #455FBD;
+}
+
+.sc-menu-item {
+	color: #455FBD;
+}
+
+.sc-menu-item:hover {
+	color: #455FBD;
+}
+
 .menu-item:hover {
 	color: #455FBD;
 }
 
+.bars {
+	display: none;
+}
+
+.sc-menu-item-wrapper {
+	display: none;
+}
+
+.x {
+	display: none;
+}
+
+.line {
+	width: 90%;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+	.nome {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.menu-item {
+		display: none;
+	}
+
+	.x {
+		display: block;
+		cursor: pointer;
+		fill: #455FBD;
+	}
+
+	.bars {
+		display: block;
+		cursor: pointer;
+		fill: #455FBD;
+	}
+
+	.profissao {
+		font-size: 14px;
+	}
+
+	.header, .row-1 {
+		height: 70px;
+	}
+
+	.sc-menu-item-wrapper {
+		display: block;
+		display: flex;
+		flex-direction: column;
+		padding-top: 200px;
+		padding-left: 50px;
+		row-gap: 10px;
+		background-color: #F6F6F6;
+	
+		height: 100px;
+	}
+  }
+
+  .row-2 {
+	width: 100%;
+	border-bottom: 2px solid #455FBD;
+  }

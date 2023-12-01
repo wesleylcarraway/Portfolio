@@ -1,8 +1,18 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+    margin: auto;
+}
+
 .wrapper-img {
     display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-top: 240px;
+    width: 80%;
 }
 
 .wrapper-img2 {
@@ -18,6 +28,7 @@
 	justify-content: center;
 	align-items: start;
     padding-top: 30px;
+    width: 80%;
 }
 
 .img {
@@ -131,14 +142,14 @@
 .h1 {
     font-size: 30px;
 	font-weight: 500;
-    margin-left: 110px;
+    line-height: 40px;
     padding-top: 100px;
 }
 
 .h2 {
     font-size: 20px;
 	font-weight: 500;
-    margin-left: 110px;
+    
     letter-spacing: 2px;
     margin-top: 40px;
 }
@@ -146,13 +157,13 @@
 .h3 {
     font-size: 20px;
 	font-weight: 500;
-    margin-left: 110px;
+    
     margin-top: 40px;
 }
 
 .text {
     font-size: 14px;
-    margin-left: 110px;
+    
     margin-top: 25px;
     max-width: 1130px;
     line-height: 30px;
@@ -160,7 +171,7 @@
 
 .text2 {
     font-size: 14px;
-    margin-left: 110px;
+    
     max-width: 1130px;
 }
 
@@ -183,7 +194,7 @@
 .topicos-wrapper {
     display: flex;
     flex-direction: row;
-    margin-left: 87px;
+    
 }
 
 .line {
@@ -214,4 +225,182 @@
 .sitelink {
     font-weight: 500;
     color: #1573E1;
+}
+
+@media only screen and (max-width: 1300px) {
+	.img {
+        background-size: 500px 513px;
+        width: 500px;
+        height: 513px;
+    }
+
+    .img2 {
+        background-size: 800px 450px;
+        width: 800px;
+        height: 450px;
+    }
+
+    .img3 {
+        background-size: 800px 448px;
+        width: 800px;
+        height: 448px;
+    }
+
+    .img4 {
+        background-size: 700px 611px;
+        width: 700px;
+        height: 611px;
+    }
+
+    .img5 {
+        background-size: 900px 484px;
+        width: 900px;
+        height: 484px;
+    }
+
+    .img6 {
+        background-size: 600px 513px;
+        width: 600px;
+        height: 513px;
+    }
+
+    .img7 {
+        background-size: 700px 406px;
+        width: 700px;
+        height: 406px;
+    }
+
+    .img8 {
+        background-size: 700px 385px;
+        width: 700px;
+        height: 385px;
+    }
+
+    .img9 {
+        background-size: 750px 585px;
+        width: 750px;
+        height: 585px;
+    }
+
+    .img10 {
+        background-size: 700px 290px;
+        width: 700px;
+        height: 290px;
+    }
+
+    .img11 {
+        background-size: 650px 478px;
+        width: 650px;
+        height: 478px;
+    }
+
+    .img12 {
+        background-size: 450px 240px;
+        width: 450px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .img {
+        background-size: 250px 257px;
+        width: 250px;
+        height: 257px;
+    }
+
+    .img2 {
+        background-size: 400px 225px;
+        width: 400px;
+        height: 225px;
+    }
+
+    .img3 {
+        background-size: 400px 224px;
+        width: 400px;
+        height: 224px;
+    }
+
+    .img4 {
+        background-size: 350px 306px;
+        width: 350px;
+        height: 306px;
+    }
+
+    .img5 {
+        background-size: 450px 242px;
+        width: 450px;
+        height: 242px;
+    }
+
+    .img6 {
+        background-size: 300px 257px;
+        width: 300px;
+        height: 257px;
+    }
+
+    .img7 {
+        background-size: 350px 203px;
+        width: 350px;
+        height: 203px;
+    }
+
+    .img8 {
+        background-size: 400px 221px;
+        width: 400px;
+        height: 221px;
+    }
+
+    .img9 {
+        background-size: 400px 312px;
+        width: 400px;
+        height: 312px;
+    }
+
+    .img10 {
+        background-size: 350px 145px;
+        width: 350px;
+        height: 145px;
+    }
+
+    .img11 {
+        background-size: 350px 257px;
+        width: 350px;
+        height: 257px;
+    }
+
+    .img12 {
+        background-size: 350px 186px;
+        width: 350px;
+        height: 186px;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+	.h1 {
+        font-size: 25px;
+    }
+    
+    .h2 {
+        font-size: 15px;
+    }
+    
+    .h3 {
+        font-size: 15px;
+    }
+    
+    .text {
+        font-size: 11px;
+    }
+    
+    .text2 {
+        font-size: 11px;
+    }
+    
+    .li {
+        font-size: 11px;
+    }
+    
+    .quote {
+        font-size: 15px;
+    }
 }

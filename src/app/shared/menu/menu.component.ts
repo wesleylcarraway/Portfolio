@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent {
+  menuClicked = false;
+  showbars = true;
 
+  openMenu() {
+    this.menuClicked = true;
+    this.showbars = false;
+  }
+
+  closeMenu() {
+    this.menuClicked = false;
+    this.showbars = true;
+  }
 }

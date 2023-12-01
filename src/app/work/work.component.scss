@@ -73,8 +73,37 @@
 	background-color: #455FBD;
 }
 
-
-
 .text {
     line-height: 40px;
+}
+
+@media only screen and (max-width: 1300px) {
+	.projeto, .img-text {
+		width: 400px;
+		height: 291px;
+	}
+
+	.img1, .img2{
+		background-size: 400px 291px;
+		width: 400px;
+		height: 291px;
+	}
+
+	.img-text:hover {
+		font-size: 25px; 
+	}
+
+	.img-text .text {
+		line-height: 40px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.projetos {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	
 }
