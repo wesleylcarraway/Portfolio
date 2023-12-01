@@ -2,7 +2,8 @@
   "name": "posts-app",
   "version": "1.0.0",
   "engines": {
-    "node": "20.9.0"
+    "node": "20.x",
+    "npm": "10.x"
   },
   "scripts": {
     "ng": "ng",
