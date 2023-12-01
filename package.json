@@ -2,8 +2,8 @@
   "name": "posts-app",
   "version": "1.0.0",
   "engines": {
-    "node": "20.x",
-    "npm": "10.x"
+    "node": "16.14.2",
+    "npm": "9.8.1"
   },
   "scripts": {
     "ng": "ng",
@@ -11,7 +11,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild":"ng build"
+    "heroku-postbuild":"ng build --prod"
   },
   "private": true,
   "dependencies": {
